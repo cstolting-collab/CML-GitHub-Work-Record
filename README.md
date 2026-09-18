@@ -24,13 +24,13 @@ It is not a personal activity feed, a claim of upstream acceptance, or a claim t
 
 The pie in every card is an **estimated work-contribution allocation**, not time tracking, legal ownership, or a productivity score: **35% human leadership and authority, 40% AI-assisted technical execution, and 25% CML/Fermata integrity method.** Human authorship, approval, and accountability remain mine.
 
+The dashboard is intentionally limited to the three active pull requests currently being monitored.
+
 | Pull request | Current public state | Evidence record | Source |
 | --- | --- | --- | --- |
-| Microsoft FHIR Server #5825 | `OPEN` · review required | Local repair evidence recorded; upstream CLA, checks, and review remain pending. | [PR #5825](https://github.com/microsoft/fhir-server/pull/5825) |
-| Microsoft FHIR Server #5829 | `OPEN` · review required | Seven global suppressions removed; Release build produced 0 warnings / 0 errors; focused tests passed. Metadata gate remains maintainer-controlled; net8.0 was not tested. | [PR #5829](https://github.com/microsoft/fhir-server/pull/5829) · [Issue #5679](https://github.com/microsoft/fhir-server/issues/5679) |
-| OpenAI Go #932 | `OPEN` · review required | Focused regression, compile, `go vet`, and diff checks passed. Mock-endpoint suite was unavailable, so full verification is not claimed. | [PR #932](https://github.com/openai/openai-go/pull/932) · [Issue #631](https://github.com/openai/openai-go/issues/631) |
-| OpenAI Go #933 | `OPEN` | Focused tests, `go vet`, compile, Castiron, and diff checks passed; full-suite and upstream acceptance are not claimed. | [PR #933](https://github.com/openai/openai-go/pull/933) |
-| CISA gh-skeleton #64 | `OPEN` | Literal-escaping repair and dotted-name regression were prepared with targeted test and diff checks; upstream review remains pending. | [PR #64](https://github.com/cisagov/gh-skeleton/pull/64) |
+| Microsoft FHIR Server #5829 | `OPEN` · upstream CI hold | Global suppressions removed; published Release build records 0 warnings / 0 errors and focused tests. Visible workflow is `action_required`, so CI is not claimed green. | [PR #5829](https://github.com/microsoft/fhir-server/pull/5829) · [Issue #5679](https://github.com/microsoft/fhir-server/issues/5679) |
+| OpenAI Go #932 | `OPEN` · upstream CI hold | Targeted regression, compile, `go vet`, and diff checks are recorded. Mock-endpoint suite was unavailable; upstream CI is `action_required`. | [PR #932](https://github.com/openai/openai-go/pull/932) · [Issue #631](https://github.com/openai/openai-go/issues/631) |
+| OpenAI Go #933 | `OPEN` · upstream CI hold | Focused tests, `go vet`, compile, Castiron, and diff checks are recorded; a full-suite pass is not claimed. Upstream CI is `action_required`. | [PR #933](https://github.com/openai/openai-go/pull/933) |
 
 ## Daily journals
 
