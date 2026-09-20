@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570" role="img" aria-labelledby="title desc">
   <title id="title">CML GitHub Work Record: three active pull request outcome cards</title>
-  <desc id="desc">Three open and mergeable pull requests, each with the same estimated collaboration allocation: human leadership 35 percent, AI-assisted technical execution 40 percent, and CML/Fermata integrity method 25 percent. All visible upstream CI gates are currently action required.</desc>
+  <desc id="desc">September 19, 2026 snapshot. Three open and mergeable pull requests, each with the same estimated collaboration allocation: human leadership 35 percent, AI-assisted technical execution 40 percent, and CML/Fermata integrity method 25 percent. Returned upstream Actions runs are action required. FHIR scope is CA2024 only; its rebuild result is contributor-reported, not independently rerun by this record inspection.</desc>
   <rect width="1100" height="570" rx="22" fill="#0d1117"/>
   <text x="42" y="52" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="700">CML GitHub Work Record</text>
-  <text x="42" y="82" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16">Three active PRs — open and mergeable; upstream CI remains an evidence hold.</text>
+  <text x="42" y="82" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16">September 19, 2026 — Three PRs open and mergeable; upstream CI remains on hold.</text>
 
   <g transform="translate(30 110)">
     <rect width="510" height="165" rx="15" fill="#161b22" stroke="#30363d"/>
@@ -15,8 +15,8 @@
       <text y="5" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">HOLD</text>
     </g>
     <text x="170" y="55" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">microsoft/fhir-server #5829</text>
-    <text x="170" y="84" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Suppressed-diagnostic repair</text>
-    <text x="170" y="110" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="14">Published build: 0 warnings / 0 errors</text>
+    <text x="170" y="84" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">CA2024-only diagnostic repair</text>
+    <text x="170" y="110" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="14">PR-reported rebuild: 0 errors</text>
     <text x="170" y="134" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="14">Upstream CI: action_required</text>
   </g>
 
