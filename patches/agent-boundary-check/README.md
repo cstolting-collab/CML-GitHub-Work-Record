@@ -2,7 +2,7 @@
 
 **September 19, 2026 · Sherrie Joseph · Human-led, AI-assisted contribution**
 
-**Publication state: PATCH PUBLISHED HERE; NOT SUBMITTED UPSTREAM.** No upstream pull request, merge, release, or maintainer approval is claimed. This directory is a published contribution artifact, not another item added to the existing three-PR monitoring dashboard.
+**Publication state: SUBMITTED UPSTREAM — [PR #4](https://github.com/sylvesterkaczmarek/agent-boundary-check/pull/4), open and unmerged at the submission check.** CI reports `action_required`; no passing upstream CI, maintainer approval, merge, or release is claimed. This directory is a published contribution artifact, not another item added to the existing three-PR monitoring dashboard. See the submission update below; the original handoff is retained as history.
 
 [Read the exact patch](timing-test.patch) · [Upstream repository](https://github.com/sylvesterkaczmarek/agent-boundary-check) · [Pinned original test](https://github.com/sylvesterkaczmarek/agent-boundary-check/blob/112ed6904f151f27cae635d77c43a36124df76aa/tests/test_adapters.py)
 
@@ -61,7 +61,7 @@ git diff --check
 
 Run the remaining platform and package checks specified in the [pinned CI workflow](https://github.com/sylvesterkaczmarek/agent-boundary-check/blob/112ed6904f151f27cae635d77c43a36124df76aa/.github/workflows/ci.yml). These commands are a reproduction recipe, not a claim that all CI jobs have executed.
 
-## Upstream submission handoff
+## Original upstream submission handoff — historical
 
 **STATE → HANDOFF → OWNERSHIP → VALIDATION → NEXT ACTOR → HUMAN AUTHORITY**
 
@@ -75,3 +75,17 @@ Run the remaining platform and package checks specified in the [pinned CI workfl
 Upstream code is by Sylvester Kaczmarek. Its [MIT license](LICENSE) is preserved. This change was prepared with AI assistance at Sherrie Joseph's direction; CML/Fermata is the continuity and evidence workflow, not a separate author or an executing autonomous runtime.
 
 **Progress is worth recording before completion. Completion is worth claiming only when verified.**
+
+## Submission update — September 20, 2026 UTC
+
+The fork prerequisite is resolved. The connected read confirmed `cstolting-collab/agent-boundary-check` is a fork of the intended upstream repository with write access. The dedicated branch `fix/isolate-cleanup-helper-startup` was created from the unchanged base revision above; the approved timing-only edit was committed as [`86b347f8b2072ca9d64dc0772ccec0591421fe0c`](https://github.com/cstolting-collab/agent-boundary-check/commit/86b347f8b2072ca9d64dc0772ccec0591421fe0c).
+
+**[Upstream PR #4](https://github.com/sylvesterkaczmarek/agent-boundary-check/pull/4) was created at `2026-09-20T04:18:47Z`.** Its metadata, body, and diff were read back. The comparison confirms one commit, one changed file, four insertions and two deletions. The committed test blob `61b9033998a795699499ceae64e0bbc38fe3819a` matches the tested candidate bytes. No production file or other candidate was included.
+
+The retained 142-entry pack manifest was reverified. A fresh targeted run on the same hash-checked reconstructed timing-only snapshot returned **2 passed in 5.53s, exit code 0**, with the original fixture enabled. This is a new targeted check, not another full-suite run; the earlier 196-test result remains historical evidence. Another normal clone attempt failed to resolve GitHub, so the full-checkout limitations above remain.
+
+**Observed upstream state:** open, non-draft and unmerged; GitHub subsequently reported mergeable. [CI run 35488825179](https://github.com/sylvesterkaczmarek/agent-boundary-check/actions/runs/35488825179), for this exact head, concluded `action_required`. The current-head check-run collection, legacy status contexts and review collection returned no entries. Missing checks are not a pass. Operational state is **HOLD for upstream CI/review**, not a demonstrated code-test failure.
+
+**Current ownership and next step:** the contributor retains follow-through responsibility; an appropriately authorized upstream maintainer is the next required role for CI authorization and review. This is a required role, not an accepted assignment. Next triggers are a workflow/check transition, review or comment, head/base change, merge or closure. Applicable full-checkout, platform and distribution gates plus the actual upstream review/merge outcome must be verified before completion is claimed.
+
+**Authority:** submission used Sherrie's existing publication approval. No extra prompt is needed to resume authorized evidence inspection. No workflow was manually rerun or approved, no merge/release was performed, and no monitoring schedule or three-PR dashboard scope was changed. Posting further replies or changing source beyond this approved patch remains separately approval-gated.
