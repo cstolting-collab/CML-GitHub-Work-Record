@@ -74,7 +74,7 @@ The candidate remains a **draft fork validation PR**. Issue #973 remains open, a
 
 A useful agent system must preserve enough continuity for work to move from one actor to the next without requiring the human to reconstruct the workflow.
 
-**STATE → HANDOFF → OWNERSHIP → VALIDATION → NEXT ACTOR → HUMAN AUTHORITY**
+**STATE → HUMAN AUTHORITY**
 
 A complete handoff carries inherited state, evidence supporting that state, current ownership, authorization boundaries, completion conditions, the next actor, and required human approvals. In this work record it also carries the exact revision, observation time, next trigger and unresolved exceptions.
 
