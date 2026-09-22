@@ -7,18 +7,18 @@
 
   <g transform="translate(245 245) rotate(-90)">
     <circle r="105" fill="none" stroke="#30363d" stroke-width="54"/>
-    <circle r="105" fill="none" stroke="#58a6ff" stroke-width="54" pathLength="100" stroke-dasharray="47.25 52.75"/>
-    <circle r="105" fill="none" stroke="#a371f7" stroke-width="54" pathLength="100" stroke-dasharray="52.75 47.25" stroke-dashoffset="-47.25"/>
+    <circle r="105" fill="none" stroke="#2ea043" stroke-width="54" pathLength="100" stroke-dasharray="47.25 52.75"/>
+    <circle r="105" fill="none" stroke="#db61a2" stroke-width="54" pathLength="100" stroke-dasharray="52.75 47.25" stroke-dashoffset="-47.25"/>
   </g>
   <circle cx="245" cy="245" r="69" fill="#161b22"/>
   <text x="245" y="238" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">34m 51s</text>
   <text x="245" y="264" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle">observed window</text>
 
-  <circle cx="485" cy="178" r="9" fill="#58a6ff"/>
+  <circle cx="485" cy="178" r="9" fill="#2ea043"/>
   <text x="508" y="184" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">16m 28s · 47.3%</text>
   <text x="508" y="208" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Pre-final validation iteration</text>
 
-  <circle cx="485" cy="258" r="9" fill="#a371f7"/>
+  <circle cx="485" cy="258" r="9" fill="#db61a2"/>
   <text x="508" y="264" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">18m 23s · 52.7%</text>
   <text x="508" y="288" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Final exact-head CI run</text>
 
