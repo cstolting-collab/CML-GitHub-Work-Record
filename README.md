@@ -56,6 +56,20 @@ The dashboard is intentionally limited to the three active pull requests current
 
 **CI coverage correction:** direct check-run inspection revealed a failed `pull_request_target` metadata workflow that the `pull_request`-only workflow-list helper omitted. The failure occurred on September 18 at 23:02 EDT and was inspected in the September 19 follow-up; it is not a newly occurring code failure. The [appended correction and handoff](journals/2026-09-19.md#correction--metadata-failure-and-ci-coverage) supersede the earlier FHIR HOLD-only summary. No upstream repair or pipeline execution is claimed.
 
+## Validated workflow snapshot — OpenAI Codex Security #973
+
+![Codex Security #973 observed validation time](assets/codex-security-973-time-pie.svg)
+
+![Codex Security #973 workflow evidence grid](assets/codex-security-973-workflow-grid.svg)
+
+The public validation candidate for [OpenAI Codex Security issue #973](https://github.com/openai/codex-security/issues/973) is recorded at exact head `e7f2731`. The current-head [node-ci run](https://github.com/cstolting-collab/ccstolting-collabodex-security/actions/runs/35747629507) completed successfully with **46 jobs: 43 successful, 3 skipped by workflow conditions, 0 failed, and 0 pending**.
+
+The observed validation window shown in the time pie is **34m 51s**, measured from opening the fork validation PR to completion of the successful exact-head CI run. It is wall-clock validation evidence, not a human/AI labor estimate.
+
+The candidate remains a **draft fork validation PR**. Issue #973 remains open, and prerequisite [PR #810](https://github.com/openai/codex-security/pull/810) remains open and unmerged. No upstream acceptance or merge is claimed.
+
+[Read the September 22 evidence journal](journals/2026-09-22.md).
+
 ## CML Continuity Principle
 
 A useful agent system must preserve enough continuity for work to move from one actor to the next without requiring the human to reconstruct the workflow.
@@ -89,6 +103,7 @@ The final report contains completed work, its evidence trail, the validation res
 
 ## Daily journals
 
+- [2026-09-22 — Codex Security #973 exact-head validation and timing record](journals/2026-09-22.md)
 - [2026-09-19 — Positive Progress, follow-through restoration, FHIR corrections and next-actor handoffs](journals/2026-09-19.md)
 - [2026-09-18 — Initial public record; historical scope, superseded where noted](journals/2026-09-18.md)
 
