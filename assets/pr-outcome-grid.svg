@@ -1,65 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570" role="img" aria-labelledby="title desc">
-  <title id="title">CML GitHub Work Record: three active pull request outcome cards</title>
-  <desc id="desc">September 19, 2026 snapshot. FHIR #5829 is open and unmerged, blocked by a failed Check Metadata job; Code Scanning remains action required. The failure is missing PR metadata, not a demonstrated code-test failure. The two OpenAI Go cards retain their earlier HOLD snapshots and were not reverified in the FHIR-only follow-up. Each pie is the same estimated collaboration allocation: human leadership 35 percent, AI-assisted technical execution 40 percent, and CML/Fermata integrity method 25 percent. These are estimates, not measured productivity or completion percentages.</desc>
-  <rect width="1100" height="570" rx="22" fill="#0d1117"/>
-  <text x="42" y="52" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="700">CML GitHub Work Record</text>
-  <text x="42" y="82" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16">September 19, 2026 — FHIR metadata failure; separate CI holds. No completed PR claimed.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600" role="img" aria-labelledby="title desc">
+  <title id="title">CML GitHub Work Record current work status board</title>
+  <desc id="desc">Readback on September 22, 2026. Microsoft FHIR Server pull request 5829 is blocked after a maintainer-triggered Azure pipeline completed with failures; its metadata check remains failed. OpenAI Go pull request 932 is open, mergeable, and held because no usable upstream CI result is available. The fork candidate for OpenAI Codex Security issue 973 is verified on the fork at head e7f2731, but remains a draft and has not been submitted upstream.</desc>
 
-  <g transform="translate(30 110)">
-    <rect width="510" height="165" rx="15" fill="#161b22" stroke="#30363d"/>
-    <g transform="translate(95 82)">
-      <path d="M0 0 L0 -48 A48 48 0 0 1 28.21 38.83 Z" fill="#a371f7"/>
-      <path d="M0 0 L28.21 38.83 A48 48 0 0 1 -48 0 Z" fill="#3fb950"/>
-      <path d="M0 0 L-48 0 A48 48 0 0 1 0 -48 Z" fill="#58a6ff"/>
-      <circle r="25" fill="#161b22"/>
-      <text y="4" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle">BLOCKED</text>
-    </g>
-    <text x="170" y="55" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">microsoft/fhir-server #5829</text>
-    <text x="170" y="84" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">CA2024-only diagnostic repair</text>
-    <text x="170" y="110" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="14">Check Metadata: FAILED</text>
-    <text x="170" y="134" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="14">Code Scanning: action_required</text>
+  <rect width="1100" height="600" rx="24" fill="#0d1117"/>
+  <text x="42" y="54" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Current work status</text>
+  <text x="42" y="84" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Readback · September 22, 2026 · operational state, not effort allocation</text>
+
+  <g transform="translate(30 118)">
+    <rect width="330" height="400" rx="16" fill="#161b22" stroke="#f85149"/>
+    <text x="26" y="38" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">UPSTREAM PR</text>
+    <text x="26" y="70" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">FHIR Server #5829</text>
+    <text x="26" y="97" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Head: 512dad5</text>
+    <rect x="207" y="24" width="97" height="30" rx="15" fill="#da3633"/>
+    <text x="255" y="45" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">BLOCKED</text>
+    <line x1="26" x2="304" y1="122" y2="122" stroke="#30363d"/>
+    <text x="26" y="158" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="15">Azure pipeline: FAILED</text>
+    <text x="26" y="185" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="15">Metadata check: FAILED</text>
+    <text x="26" y="214" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Maintainer-triggered run completed</text>
+    <text x="26" y="235" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">with mixed job outcomes.</text>
+    <line x1="26" x2="304" y1="268" y2="268" stroke="#30363d"/>
+    <text x="26" y="304" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">NEXT ACTOR</text>
+    <text x="26" y="332" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="15">Upstream maintainer</text>
+    <text x="26" y="357" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Review CI / required metadata.</text>
   </g>
 
-  <g transform="translate(560 110)">
-    <rect width="510" height="165" rx="15" fill="#161b22" stroke="#30363d"/>
-    <g transform="translate(95 82)">
-      <path d="M0 0 L0 -48 A48 48 0 0 1 28.21 38.83 Z" fill="#a371f7"/>
-      <path d="M0 0 L28.21 38.83 A48 48 0 0 1 -48 0 Z" fill="#3fb950"/>
-      <path d="M0 0 L-48 0 A48 48 0 0 1 0 -48 Z" fill="#58a6ff"/>
-      <circle r="25" fill="#161b22"/>
-      <text y="5" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">HOLD</text>
-    </g>
-    <text x="170" y="55" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">openai/openai-go #932</text>
-    <text x="170" y="84" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Manual response-history repair</text>
-    <text x="170" y="110" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="14">Focused evidence; mock suite held</text>
-    <text x="170" y="134" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="14">Upstream CI: action_required</text>
+  <g transform="translate(385 118)">
+    <rect width="330" height="400" rx="16" fill="#161b22" stroke="#d29922"/>
+    <text x="26" y="38" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">UPSTREAM PR</text>
+    <text x="26" y="70" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">OpenAI Go #932</text>
+    <text x="26" y="97" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Head: ff30d417</text>
+    <rect x="229" y="24" width="75" height="30" rx="15" fill="#9e6a03"/>
+    <text x="266" y="45" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">HOLD</text>
+    <line x1="26" x2="304" y1="122" y2="122" stroke="#30363d"/>
+    <text x="26" y="158" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="15">OPEN · mergeable · unmerged</text>
+    <text x="26" y="185" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="15">Upstream CI: result unavailable</text>
+    <text x="26" y="214" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Fork validation evidence is separate.</text>
+    <text x="26" y="235" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">No upstream pass is claimed.</text>
+    <line x1="26" x2="304" y1="268" y2="268" stroke="#30363d"/>
+    <text x="26" y="304" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">NEXT ACTOR</text>
+    <text x="26" y="332" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="15">Upstream CI / maintainer</text>
+    <text x="26" y="357" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Authorize or return a review result.</text>
   </g>
 
-  <g transform="translate(30 305)">
-    <rect width="510" height="165" rx="15" fill="#161b22" stroke="#30363d"/>
-    <g transform="translate(95 82)">
-      <path d="M0 0 L0 -48 A48 48 0 0 1 28.21 38.83 Z" fill="#a371f7"/>
-      <path d="M0 0 L28.21 38.83 A48 48 0 0 1 -48 0 Z" fill="#3fb950"/>
-      <path d="M0 0 L-48 0 A48 48 0 0 1 0 -48 Z" fill="#58a6ff"/>
-      <circle r="25" fill="#161b22"/>
-      <text y="5" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">HOLD</text>
-    </g>
-    <text x="170" y="55" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">openai/openai-go #933</text>
-    <text x="170" y="84" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Non-API HTTP-error repair</text>
-    <text x="170" y="110" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="14">Focused evidence; full suite not claimed</text>
-    <text x="170" y="134" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="14">Upstream CI: action_required</text>
+  <g transform="translate(740 118)">
+    <rect width="330" height="400" rx="16" fill="#161b22" stroke="#2f81f7"/>
+    <text x="26" y="38" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">FORK CANDIDATE · ISSUE #973</text>
+    <text x="26" y="70" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Codex Security #1</text>
+    <text x="26" y="97" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Head: e7f2731 · DRAFT</text>
+    <rect x="132" y="24" width="172" height="30" rx="15" fill="#1f6feb"/>
+    <text x="218" y="45" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">VERIFIED ON FORK</text>
+    <line x1="26" x2="304" y1="122" y2="122" stroke="#30363d"/>
+    <text x="26" y="158" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="15">node-ci: 43 success · 3 skipped</text>
+    <text x="26" y="185" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="15">0 failed · 0 pending</text>
+    <text x="26" y="214" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Issue #973 and prerequisite #810</text>
+    <text x="26" y="235" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">remain open; no upstream PR submitted.</text>
+    <line x1="26" x2="304" y1="268" y2="268" stroke="#30363d"/>
+    <text x="26" y="304" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">NEXT ACTOR</text>
+    <text x="26" y="332" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="15">Human decision</text>
+    <text x="26" y="357" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Submit upstream or keep holding.</text>
   </g>
 
-  <g transform="translate(560 305)">
-    <rect width="510" height="165" rx="15" fill="#161b22" stroke="#30363d"/>
-    <text x="34" y="48" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">How to read every pie</text>
-    <circle cx="48" cy="82" r="8" fill="#3fb950"/>
-    <text x="66" y="88" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="16">35% Human leadership and authority</text>
-    <circle cx="48" cy="112" r="8" fill="#a371f7"/>
-    <text x="66" y="118" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="16">40% AI-assisted technical execution</text>
-    <circle cx="48" cy="142" r="8" fill="#58a6ff"/>
-    <text x="66" y="148" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="16">25% CML/Fermata integrity method</text>
-  </g>
-
-  <text x="42" y="540" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Metadata failure is not a code-test failure. HOLD and BLOCKED are not success. Allocation percentages are estimates.</text>
+  <text x="42" y="565" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13">Color marks an operational state only. Time evidence and collaboration estimates are separate records, not status gauges.</text>
 </svg>
