@@ -78,7 +78,7 @@ The standard requires a supported workload, correctness parity before timing, ex
 
 **[Read the Real-Workload Performance Evidence Standard](standards/real-workload-performance.md)**
 
-For OpenAI Agents Python #5088, the implementation candidate passed its exact-head CI, and a separate benchmark harness has been prepared against the validated implementation. Until that harness executes against live Modal, the performance state remains **BENCHMARK READY**, not verified performance evidence.
+For OpenAI Agents Python #5088, the implementation candidate passed exact-head fork CI, the live Modal workload benchmark completed successfully, and the benchmark head then passed the full **18 / 18** exact-head validation matrix. The observed median read-workload result was **3.4937s shell baseline vs 2.7945s native read (-20.0%)**, with correctness parity verified before timing. Performance evidence state: **VERIFIED PERFORMANCE EVIDENCE**. [See the September 22 evidence record](journals/2026-09-22.md#performance-evidence-state).
 
 ## CML Continuity Principle
 
