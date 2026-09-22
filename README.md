@@ -70,6 +70,16 @@ The candidate remains a **draft fork validation PR**. Issue #973 remains open, a
 
 [Read the September 22 evidence journal](journals/2026-09-22.md).
 
+## Engineering validation standard — real-workload performance evidence
+
+Performance or efficiency claims now require **real-workload evidence** when material benefit is part of the engineering decision. A passing test suite proves correctness boundaries; it does not by itself prove that an optimization is worthwhile.
+
+The standard requires a supported workload, correctness parity before timing, exact revision and environment identity, baseline/treatment comparison, repeated alternating observations, startup separation, distribution reporting, and preservation of compatibility/error boundaries.
+
+**[Read the Real-Workload Performance Evidence Standard](standards/real-workload-performance.md)**
+
+For OpenAI Agents Python #5088, the implementation candidate passed its exact-head CI, and a separate benchmark harness has been prepared against the validated implementation. Until that harness executes against live Modal, the performance state remains **BENCHMARK READY**, not verified performance evidence.
+
 ## CML Continuity Principle
 
 A useful agent system must preserve enough continuity for work to move from one actor to the next without requiring the human to reconstruct the workflow.
