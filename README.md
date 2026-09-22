@@ -30,7 +30,7 @@ Evidence labels describe what is known: `IMPLEMENTED`, `VERIFIED`, `OBSERVED`, `
 
 ## Journals
 
-- [2026-09-22 — Codex Security #973 exact-head validation and Agents Python #5088 performance evidence](journals/2026-09-22.md)
+- [2026-09-22 — current-state readback plus Codex #973 and Agents Python #5088 verification records](journals/2026-09-22.md)
 - [2026-09-19 — Positive Progress, FHIR scope correction, metadata failure, and next-actor handoffs](journals/2026-09-19.md)
 - [2026-09-18 — initial public record; historical scope, superseded where noted](journals/2026-09-18.md)
 
