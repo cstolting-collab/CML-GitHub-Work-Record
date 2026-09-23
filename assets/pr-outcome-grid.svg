@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600" role="img" aria-labelledby="title desc">
   <title id="title">CML GitHub Work Record current work status board</title>
-  <desc id="desc">Readback on September 22, 2026. Microsoft FHIR Server pull request 5829 is blocked after a maintainer-triggered Azure pipeline completed with failures; its metadata check remains failed. OpenAI Go pull request 932 is open, mergeable, and held because no usable upstream CI result is available. The fork candidate for OpenAI Codex Security issue 973 is verified on the fork at head e7f2731, but remains a draft and has not been submitted upstream.</desc>
+  <desc id="desc">Readback on September 22, 2026. Microsoft FHIR Server pull request 5829 is blocked after a maintainer-triggered Azure pipeline completed with failures; its metadata check remains failed. OpenAI Go pull request 932 is open, mergeable, and held because no usable upstream CI result is available. The fork candidate for OpenAI Codex Security issue 973 passed fork validation at head e7f2731 but is on hold because prerequisite pull request 810 remains open and unmerged; no upstream 973 pull request has been submitted.</desc>
 
   <rect width="1100" height="600" rx="24" fill="#0d1117"/>
   <text x="42" y="54" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Current work status</text>
@@ -47,17 +47,17 @@
     <text x="26" y="38" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">FORK CANDIDATE · ISSUE #973</text>
     <text x="26" y="70" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Codex Security #1</text>
     <text x="26" y="97" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Head: e7f2731 · DRAFT</text>
-    <rect x="132" y="24" width="172" height="30" rx="15" fill="#1f6feb"/>
-    <text x="218" y="45" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">VERIFIED ON FORK</text>
+    <rect x="202" y="24" width="102" height="30" rx="15" fill="#9e6a03"/>
+    <text x="253" y="45" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">HOLD</text>
     <line x1="26" x2="304" y1="122" y2="122" stroke="#30363d"/>
     <text x="26" y="158" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="15">node-ci: 43 success · 3 skipped</text>
     <text x="26" y="185" fill="#d0d7de" font-family="Segoe UI, Arial, sans-serif" font-size="15">0 failed · 0 pending</text>
-    <text x="26" y="214" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Issue #973 and prerequisite #810</text>
-    <text x="26" y="235" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">remain open; no upstream PR submitted.</text>
+    <text x="26" y="214" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Fork candidate validated; prerequisite #810</text>
+    <text x="26" y="235" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">remains open/unmerged; no upstream #973 PR.</text>
     <line x1="26" x2="304" y1="268" y2="268" stroke="#30363d"/>
     <text x="26" y="304" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">NEXT ACTOR</text>
-    <text x="26" y="332" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="15">Human decision</text>
-    <text x="26" y="357" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Submit upstream or keep holding.</text>
+    <text x="26" y="332" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="15">Upstream #810 / maintainers</text>
+    <text x="26" y="357" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Wait for prerequisite or stacked approval.</text>
   </g>
 
   <text x="42" y="565" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13">Color marks an operational state only. Time evidence and collaboration estimates are separate records, not status gauges.</text>
