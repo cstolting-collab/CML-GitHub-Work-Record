@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
   <title id="title">OpenAI Codex Security issue 973 observed validation time</title>
-  <desc id="desc">Observed wall-clock validation window from the fork validation pull request opening to successful current-head CI: 34 minutes 51 seconds. The first 16 minutes 28 seconds were pre-final validation iteration and the final exact-head CI run took 18 minutes 23 seconds. This is elapsed validation time, not labor attribution.</desc>
+  <desc id="desc">Exact-head node-ci wall-clock was 18 minutes 23 seconds. The broader interval from draft pull request opening to exact-head CI completion was 34 minutes 51 seconds, including 16 minutes 28 seconds before the final CI run. These are elapsed evidence intervals, not labor attribution.</desc>
   <rect width="900" height="430" rx="24" fill="#0d1117"/>
-  <text x="42" y="54" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Codex Security #973 — observed validation time</text>
-  <text x="42" y="84" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Validation PR opened → exact current-head CI completed successfully</text>
+  <text x="42" y="54" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Codex Security #973 — validation timing evidence</text>
+  <text x="42" y="84" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Exact-head CI wall-clock separated from broader draft-PR validation interval</text>
 
   <g transform="translate(245 245) rotate(-90)">
     <circle r="105" fill="none" stroke="#30363d" stroke-width="54"/>
@@ -11,16 +11,16 @@
     <circle r="105" fill="none" stroke="#db61a2" stroke-width="54" pathLength="100" stroke-dasharray="52.75 47.25" stroke-dashoffset="-47.25"/>
   </g>
   <circle cx="245" cy="245" r="69" fill="#161b22"/>
-  <text x="245" y="238" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">34m 51s</text>
-  <text x="245" y="264" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle">observed window</text>
+  <text x="245" y="238" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">18m 23s</text>
+  <text x="245" y="264" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle">exact-head CI wall-clock</text>
 
   <circle cx="485" cy="178" r="9" fill="#2ea043"/>
-  <text x="508" y="184" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">16m 28s · 47.3%</text>
-  <text x="508" y="208" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Pre-final validation iteration</text>
+  <text x="508" y="184" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">34m 51s total interval</text>
+  <text x="508" y="208" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Draft PR opened → exact-head CI completed</text>
 
   <circle cx="485" cy="258" r="9" fill="#db61a2"/>
-  <text x="508" y="264" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">18m 23s · 52.7%</text>
-  <text x="508" y="288" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Final exact-head CI run</text>
+  <text x="508" y="264" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">16m 28s before final CI</text>
+  <text x="508" y="288" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Pre-final interval inside the broader 34m 51s</text>
 
-  <text x="42" y="393" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13">Wall-clock evidence only. Pre-PR research/build time is not included, and this chart is not a human/AI labor estimate.</text>
+  <text x="42" y="393" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13">18m 23s is the CI run wall-clock. 34m 51s is a broader PR-open-to-CI-complete interval. Neither is a labor estimate.</text>
 </svg>
