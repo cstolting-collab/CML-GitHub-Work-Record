@@ -6,10 +6,11 @@
 
 ## Current state
 
-Readback: **2026-09-22T23:33:02Z**. This is the landing-page status picture; dated journals retain the full source links, observations, and corrections.
+Readback: **2026-09-23**. This is the landing-page status picture; dated journals retain the full source links, observations, corrections, and next-actor handoffs.
 
 | Item | Head | Operational state | Last verified | Next actor |
 | --- | --- | --- | --- | --- |
+| [OpenAI Codex #47555](https://github.com/openai/codex/issues/47555) | `dccef51` | **IMPLEMENTED ON FORK / UPSTREAM HANDOFF** — Registered Core bootstrap fix committed with targeted Windows regression coverage. Upstream PR creation is restricted to collaborators; maintainer review/cherry-pick requested. Stale-process lifecycle issue remains separately source-traced. | 23 Sep 2026 | OpenAI Codex maintainer — review/cherry-pick, run Windows CI, and identify desktop lifecycle owner for stale-host replacement. |
 | [FHIR Server #5829](https://github.com/microsoft/fhir-server/pull/5829) | `512dad5` | **BLOCKED** — a maintainer-triggered Azure pipeline completed with failures on 21 Sep; `Check Metadata` remains failed. | 22 Sep 2026 | Upstream maintainer — review CI and required PR metadata. |
 | [OpenAI Go #932](https://github.com/openai/openai-go/pull/932) | `ff30d417` | **HOLD** — open, mergeable, unmerged; this readback has no usable upstream CI result. Fork validation is separate evidence. | 22 Sep 2026 | Upstream CI / maintainer — authorize or return a review result. |
 | [Codex Security #973 — fork candidate #1](https://github.com/cstolting-collab/ccstolting-collabodex-security/pull/1) | `e7f2731` | **HOLD — FORK CANDIDATE VALIDATED**. Exact-head node-ci: 46 jobs total, 43 successful, 3 skipped, 0 failed, 0 pending. Draft; no upstream PR submitted. [Issue #973](https://github.com/openai/codex-security/issues/973) remains open and prerequisite [#810](https://github.com/openai/codex-security/pull/810) is still open/unmerged. | 22 Sep 2026 | Upstream #810 / maintainers — prerequisite must land or explicitly support stacked submission before #973 is submitted upstream. |
@@ -30,6 +31,7 @@ Evidence labels describe what is known: `IMPLEMENTED`, `VERIFIED`, `OBSERVED`, `
 
 ## Journals
 
+- [2026-09-23 — Codex Windows Registered Core investigation, patch, attribution, and lifecycle handoff](journals/2026-09-23.md)
 - [2026-09-22 — current-state readback plus Codex #973 and Agents Python #5088 verification records](journals/2026-09-22.md)
 - [2026-09-19 — Positive Progress, FHIR scope correction, metadata failure, and next-actor handoffs](journals/2026-09-19.md)
 - [2026-09-18 — initial public record; historical scope, superseded where noted](journals/2026-09-18.md)
