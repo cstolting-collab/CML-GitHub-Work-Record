@@ -4,9 +4,11 @@
 
 **Purpose:** show what is live, verified, blocked, or waiting on an authorized human—without claiming upstream acceptance, completion, or autonomous action.
 
+> **29 Sep 2026 external-contribution audit:** 12 upstream pull requests were located outside this account's own repositories: 8 open, 3 closed after equivalent/original fixes merged upstream, and 1 closed unmerged. [Read the full current-state audit](journals/2026-09-29.md).
+
 ## Current state
 
-Readback: **2026-09-23**. This is the landing-page status picture; dated journals retain the full source links, observations, corrections, and next-actor handoffs.
+Readback: **2026-09-29**. This is the landing-page status picture; dated journals retain the full source links, observations, corrections, and next-actor handoffs.
 
 | Item | Head | Operational state | Last verified | Next actor |
 | --- | --- | --- | --- | --- |
@@ -31,6 +33,7 @@ Evidence labels describe what is known: `IMPLEMENTED`, `VERIFIED`, `OBSERVED`, `
 
 ## Journals
 
+- [2026-09-29 — external contribution audit and current follow-up state](journals/2026-09-29.md)
 - [2026-09-23 — Codex Windows Registered Core investigation, patch, attribution, and lifecycle handoff](journals/2026-09-23.md)
 - [2026-09-22 — current-state readback plus Codex #973 and Agents Python #5088 verification records](journals/2026-09-22.md)
 - [2026-09-19 — Positive Progress, FHIR scope correction, metadata failure, and next-actor handoffs](journals/2026-09-19.md)
