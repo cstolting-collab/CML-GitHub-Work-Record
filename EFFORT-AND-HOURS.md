@@ -2,13 +2,13 @@
 
 ## Purpose
 
-This file records the human effort behind CML, Fermata, Estra Logics, the public GitHub repair work, validation experiments, evidence packaging, and related engineering.
+This file records the human effort behind CML, Fermata, Estra Logics, the public GitHub repair work, validation experiments, evidence packaging, and related engineering. **CML development has been ongoing for months, not days or weeks.**
 
 The record is intentionally conservative: **hours are not reconstructed from guesses, message counts, commit counts, or CI wall-clock.** Historical work that was not timed contemporaneously is recorded as real work with **unquantified duration** rather than assigned a fabricated number.
 
 ## Retrospective record
 
-The public and private work record shows sustained engineering activity across multiple months in 2026, including:
+The public and private work record shows **sustained CML engineering across multiple months in 2026**. This is an ongoing body of work with repeated design, implementation, testing, failure analysis, recovery, benchmarking, documentation, and handoff cycles, including:
 
 - CML language and continuity architecture
 - reference compiler and adapter work
@@ -28,7 +28,8 @@ This work includes long interactive research sessions, repeated test cycles, fai
 
 ### Historical hours
 
-**Verified cumulative human hours before prospective time tracking: UNQUANTIFIED.**
+**Verified cumulative human hours before prospective time tracking: UNQUANTIFIED.**  
+**Duration of effort: MULTI-MONTH, CONTINUOUSLY DEVELOPED AND DOCUMENTED.**
 
 That does **not** mean zero hours. It means the historical record does not contain reliable start/stop timestamps for every work session, so no numeric lifetime total is claimed.
 
