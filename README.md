@@ -21,14 +21,6 @@ Readback: **2026-09-29**. This is the landing-page status picture; dated journal
 
 `BLOCKED` and `HOLD` are operational gates. Fork validation is evidence attached to a hold; it is not an upstream completion state. The board does not show effort allocation.
 
-## Effort and hours record
-
-The engineering record now includes a separate [Effort and Hours Record](EFFORT-AND-HOURS.md).
-
-Historical CML / Estra Logics work is documented across sustained multi-month research and engineering sessions, but a complete retrospective human-hours total is **not claimed** where start/stop times were not captured. The record preserves that work as real, unquantified effort rather than converting chat volume, commits, CI time, or calendar span into a fabricated number.
-
-Future sessions can be added prospectively when observed start/stop times or explicit durations are available.
-
 ## Method
 
 CML/Fermata keeps a work item understandable through change: its accepted state, evidence, owner, boundary, next actor, and human approval remain visible.
