@@ -26,6 +26,20 @@ The public and private work record shows **sustained CML engineering across mult
 
 This work includes long interactive research sessions, repeated test cycles, failed experiments, reruns, code review, evidence review, public documentation, and preservation work.
 
+## Public proof of sustained development
+
+The multi-month duration statement is supported by dated public records, not by retrospective memory alone.
+
+- **20 Aug 2026 — CML Reference Compiler:** commit [`ab9bff2`](https://github.com/cstolting-collab/CML-Reference-Compiler/commit/ab9bff286b91ea8c6885117131f6b153b0e4966a), titled **“Document CML ongoing research and claim boundaries.”** The repository's [RESEARCH.md](https://github.com/cstolting-collab/CML-Reference-Compiler/blob/main/RESEARCH.md) identifies CML as an active research and engineering project and documents its research questions, evidence ladder, claim boundaries, and engineering/research separation.
+- **18 Sep 2026 — Work Record journal:** [initial public work record](journals/2026-09-18.md), preserving the then-current CML/Fermata engineering state and contribution history.
+- **19 Sep 2026 — Work Record journal:** [scope corrections, progress record, and evidence corrections](journals/2026-09-19.md).
+- **22 Sep 2026 — Work Record journal:** [current-state readback and validation records](journals/2026-09-22.md), including benchmark and CI evidence.
+- **23 Sep 2026 — Work Record journal:** [Codex Windows investigation, patch, attribution, and lifecycle handoff](journals/2026-09-23.md).
+- **29 Sep 2026 — Work Record journal:** [external contribution audit and follow-up state](journals/2026-09-29.md).
+- **6 Oct 2026 — CML-Trust:** commit [`d823d14`](https://github.com/cstolting-collab/CML-Trust/commit/d823d14ccf950101d530fc1547722a8979dbdadf), **“Public CML verification evidence bundle — 2026-10-06,”** publishing a dated reproducible verification bundle while keeping the private reference implementation private.
+
+These records establish a documented public span from at least **20 Aug 2026 through 6 Oct 2026**, with continuing work after that date. They do not reconstruct exact human-hours for sessions that were not timed.
+
 ### Historical hours
 
 **Verified cumulative human hours before prospective time tracking: UNQUANTIFIED.**  
