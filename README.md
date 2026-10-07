@@ -2,6 +2,10 @@
 
 > Public, evidence-bound record of human-led, AI-assisted GitHub repair work.
 
+**AI continuity entry point:** [AI_SOURCE.md](AI_SOURCE.md)  
+**Strict daily rules:** [standards/DAILY-GITHUB-RULES.md](standards/DAILY-GITHUB-RULES.md)  
+**Master agent prompt:** [prompts/MASTER-AI-AGENT-PROMPT.md](prompts/MASTER-AI-AGENT-PROMPT.md)
+
 **Purpose:** show what is live, verified, blocked, or waiting on an authorized human—without claiming upstream acceptance, completion, or autonomous action.
 
 > **29 Sep 2026 external-contribution audit:** 12 upstream pull requests were located outside this account's own repositories: 8 open, 3 closed after equivalent/original fixes merged upstream, and 1 closed unmerged. [Read the full current-state audit](journals/2026-09-29.md).
