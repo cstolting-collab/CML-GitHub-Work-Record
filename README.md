@@ -14,6 +14,10 @@ This repository organizes dated evidence: what was investigated, what changed, w
 | Checking working standards | [Daily GitHub rules](standards/DAILY-GITHUB-RULES.md) |
 | Reviewing prepared changes | [Patch records](patches/) |
 
+**Latest organization record:** [10 October 2026 — presentation changes and remaining settings work](journals/2026-10-10.md)
+
+**Presentation standard:** [Public portfolio organization](standards/PUBLIC-PRESENTATION.md)
+
 ## Selected records
 
 These are historical records with explicit dates. They do not claim today’s upstream status.
