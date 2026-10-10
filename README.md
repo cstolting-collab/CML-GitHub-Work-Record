@@ -1,82 +1,33 @@
 # CML GitHub Work Record
 
-> Public, evidence-bound record of human-led, AI-assisted GitHub repair work.
+**Problem:** Human-led, AI-assisted repair work across many forks is impossible to audit. You lose what was tried, what failed, what is blocked.
 
-**AI continuity entry point:** [AI_SOURCE.md](AI_SOURCE.md)  
-**Strict daily rules:** [standards/DAILY-GITHUB-RULES.md](standards/DAILY-GITHUB-RULES.md)  
-**Master agent prompt:** [prompts/MASTER-AI-AGENT-PROMPT.md](prompts/MASTER-AI-AGENT-PROMPT.md)
+**What this is:** Public, evidence-bound record of engineering work, validation standards, experiments, failures, and handoffs. Reporting destination, not a repair target.
 
-**Purpose:** show what is live, verified, blocked, or waiting on an authorized human—without claiming upstream acceptance, completion, or autonomous action.
+**Historical State — Readback: 2026-09-29**
+The following is a dated snapshot, not a fresh verification of upstream status.
 
-> **29 Sep 2026 external-contribution audit:** 12 upstream pull requests were located outside this account's own repositories: 8 open, 3 closed after equivalent/original fixes merged upstream, and 1 closed unmerged. [Read the full current-state audit](journals/2026-09-29.md).
+**AI continuity entry point:** [AI_SOURCE.md](AI_SOURCE.md) · [Daily rules](standards/DAILY-GITHUB-RULES.md) · [Master agent prompt](prompts/MASTER-AI-AGENT-PROMPT.md)
 
-## Current state
+| Item | Head | Operational state | Next actor |
+| :--- | :--- | :--- | :--- |
+| OpenAI Codex #47555 — Windows sandbox setup stuck | `dccef51` | IMPLEMENTED ON FORK / UPSTREAM HANDOFF — fix committed, Windows regression coverage added. Upstream PR creation restricted to collaborators. | Codex maintainer — review/cherry-pick |
+| Codex Security #973 — fork candidate #1 | `e7f2731` | HOLD — FORK CANDIDATE VALIDATED. Exact-head node-ci: 46 jobs: 43 success, 3 skipped, 0 failed, 0 pending. Draft, no upstream PR submitted. Prereq #810 still open. | Upstream #810 maintainers |
+| OpenAI Agents Python #5088 — native Modal read | `f6e6368` / `a67a69d` | HOLD — Benchmark READY -> MEASURED. 18/18 fork validation passed. Median: shell 3.4937s vs native 2.7945s (-20.0% code-path delta) with correctness parity. | Maintainer review |
+| FHIR Server #5829 | `512dad5` | BLOCKED — maintainer-triggered Azure pipeline failed, Check Metadata failed 2026-09-21 | Upstream maintainer |
 
-Readback: **2026-09-29**. This is the landing-page status picture; dated journals retain the full source links, observations, corrections, and next-actor handoffs.
+**30 sec try:**
+```bash
+git clone https://github.com/cstolting-collab/cml-github-work-record
+cd cml-github-work-record
+cat standards/DAILY-GITHUB-RULES.md
+cat journals/2026-09-23.md # exact links to fix branches and CI runs
+```
 
-| Item | Head | Operational state | Last verified | Next actor |
-| --- | --- | --- | --- | --- |
-| [OpenAI Codex #47555](https://github.com/openai/codex/issues/47555) | `dccef51` | **IMPLEMENTED ON FORK / UPSTREAM HANDOFF** — Registered Core bootstrap fix committed with targeted Windows regression coverage. Upstream PR creation is restricted to collaborators; maintainer review/cherry-pick requested. Stale-process lifecycle issue remains separately source-traced. | 23 Sep 2026 | OpenAI Codex maintainer — review/cherry-pick, run Windows CI, and identify desktop lifecycle owner for stale-host replacement. |
-| [FHIR Server #5829](https://github.com/microsoft/fhir-server/pull/5829) | `512dad5` | **BLOCKED** — a maintainer-triggered Azure pipeline completed with failures on 21 Sep; `Check Metadata` remains failed. | 22 Sep 2026 | Upstream maintainer — review CI and required PR metadata. |
-| [OpenAI Go #932](https://github.com/openai/openai-go/pull/932) | `ff30d417` | **HOLD** — open, mergeable, unmerged; this readback has no usable upstream CI result. Fork validation is separate evidence. | 22 Sep 2026 | Upstream CI / maintainer — authorize or return a review result. |
-| [Codex Security #973 — fork candidate #1](https://github.com/cstolting-collab/ccstolting-collabodex-security/pull/1) | `e7f2731` | **HOLD — FORK CANDIDATE VALIDATED**. Exact-head node-ci: 46 jobs total, 43 successful, 3 skipped, 0 failed, 0 pending. Draft; no upstream PR submitted. [Issue #973](https://github.com/openai/codex-security/issues/973) remains open and prerequisite [#810](https://github.com/openai/codex-security/pull/810) is still open/unmerged. | 22 Sep 2026 | Upstream #810 / maintainers — prerequisite must land or explicitly support stacked submission before #973 is submitted upstream. |
+**Method:** STATE → HANDOFF → OWNERSHIP → VALIDATION → NEXT ACTOR → HUMAN AUTHORITY. Rule: Read · Verify · Prepare · Hold.
 
-![Current work status board](assets/pr-outcome-grid.svg)
+2026-09-29 external contribution audit: 12 upstream PRs located outside this account: 8 open, 3 closed after equivalent/original fixes merged upstream, 1 closed unmerged.
 
-`BLOCKED` and `HOLD` are operational gates. Fork validation is evidence attached to a hold; it is not an upstream completion state. The board does not show effort allocation.
+**Public boundary:** Private workflow mechanics, credentials, unpublished patches not published. Open PR != completed result.
 
-## Method
-
-CML/Fermata keeps a work item understandable through change: its accepted state, evidence, owner, boundary, next actor, and human approval remain visible.
-
-`STATE → HANDOFF → OWNERSHIP → VALIDATION → NEXT ACTOR → HUMAN AUTHORITY`
-
-The public rule is simple: **Read · Verify · Prepare · Hold.** A tool may prepare evidence; an authorized person still controls external messages, submissions, merges, payments, and final claims.
-
-Evidence labels describe what is known: `IMPLEMENTED`, `VERIFIED`, `OBSERVED`, `INFERENCE`, `HYPOTHESIS`, `PROPOSAL`, and `UNKNOWN`. Operational labels describe the gate: `VERIFIED`, `HOLD`, `FAILED`, `BLOCKED`, and `UNKNOWN`.
-
-## Journals
-
-- [2026-09-29 — external contribution audit and current follow-up state](journals/2026-09-29.md)
-- [2026-09-23 — Codex Windows Registered Core investigation, patch, attribution, and lifecycle handoff](journals/2026-09-23.md)
-- [2026-09-22 — current-state readback plus Codex #973 and Agents Python #5088 verification records](journals/2026-09-22.md)
-- [2026-09-19 — Positive Progress, FHIR scope correction, metadata failure, and next-actor handoffs](journals/2026-09-19.md)
-- [2026-09-18 — initial public record; historical scope, superseded where noted](journals/2026-09-18.md)
-
-## Corrections and historical snapshots
-
-The former three-PR pie dashboard was a **19 Sep snapshot** and its repeated 35 / 40 / 25 estimate was a standing collaboration estimate, not an outcome or status metric. It has been replaced on this landing page by the current status board.
-
-The original evidence remains in the dated journal. In particular:
-
-- [FHIR #5829 scope correction](journals/2026-09-19.md#evidence-correction--fhir-5829)
-- [FHIR metadata failure and CI-coverage correction](journals/2026-09-19.md#correction--metadata-failure-and-ci-coverage)
-- [Positive Progress: six contributions, exact revisions, and limits](journals/2026-09-19.md#positive-progress)
-
-## Separate validation evidence
-
-These are validation records, not status or labor-allocation charts.
-
-### Codex Security #973
-
-![Codex Security #973 observed validation time](assets/codex-security-973-time-pie.svg)
-
-![Codex Security #973 workflow evidence grid](assets/codex-security-973-workflow-grid.svg)
-
-The draft fork candidate completed exact-head node-ci with **46 jobs total: 43 successful, 3 skipped, 0 failed, and 0 pending**. The exact-head CI run itself lasted **18m 23s**. The broader **34m 51s** interval runs from draft-PR opening to exact-head CI completion and includes a pre-final validation iteration; it is not CI wall-clock and is not human/AI labor attribution. [Read the record](journals/2026-09-22.md).
-
-### OpenAI Agents Python #5088
-
-The exact benchmark head `a67a69d0313ea2d216318cf4e05dc431bfde48a7` passed the full **18 / 18** fork validation matrix after a live Modal workload benchmark completed successfully. The observed median was **3.4937s** for the shell baseline and **2.7945s** for the native read (**−20.0% code-path median delta**), with correctness parity verified first.
-
-[Benchmark evidence](https://github.com/cstolting-collab/openai-agents-python/actions/runs/35788913197) · [Exact-head CI matrix](https://github.com/cstolting-collab/openai-agents-python/actions/runs/35788918171) · [Full evidence record](journals/2026-09-22.md#performance-evidence-state)
-
-> This is measured implementation evidence. It is not a claim of 20% human-time savings, upstream acceptance, release, or production deployment.
-
-## Public boundary
-
-Private workflow mechanics, credentials, unpublished patches, local paths, and internal CML/Fermata orchestration are not published here. An open PR is not a completed result; a fork pass is not upstream acceptance; a merged PR is not automatically a release or production verification.
-
----
-
-**Human-led. AI-assisted. Evidence-bound.**
+License: [Apache-2.0](LICENSE) · Topics: cml, work-log, evidence, reproducibility
