@@ -1,33 +1,58 @@
-# CML GitHub Work Record
+# Estra Logics — Engineering Work Record
 
-**Problem:** Human-led, AI-assisted repair work across many forks is impossible to audit. You lose what was tried, what failed, what is blocked.
+**A public record of software investigation, validation, and open-source contribution work.**
 
-**What this is:** Public, evidence-bound record of engineering work, validation standards, experiments, failures, and handoffs. Reporting destination, not a repair target.
+This repository organizes dated evidence: what was investigated, what changed, what was checked, and what remains unresolved. It is the reporting destination for the work, not a claim that every contribution has been accepted upstream.
 
-**Historical State — Readback: 2026-09-29**
-The following is a dated snapshot, not a fresh verification of upstream status.
+## Start here
 
-**AI continuity entry point:** [AI_SOURCE.md](AI_SOURCE.md) · [Daily rules](standards/DAILY-GITHUB-RULES.md) · [Master agent prompt](prompts/MASTER-AI-AGENT-PROMPT.md)
+| Audience | Read |
+| --- | --- |
+| Reviewing this portfolio | [Public project directory](https://github.com/cstolting-collab/cstolting-collab/blob/main/PROJECTS.md) |
+| Reviewing technical work | [Dated journals](journals/) |
+| Following an existing task | [AI Source](AI_SOURCE.md) |
+| Checking working standards | [Daily GitHub rules](standards/DAILY-GITHUB-RULES.md) |
+| Reviewing prepared changes | [Patch records](patches/) |
 
-| Item | Head | Operational state | Next actor |
-| :--- | :--- | :--- | :--- |
-| OpenAI Codex #47555 — Windows sandbox setup stuck | `dccef51` | IMPLEMENTED ON FORK / UPSTREAM HANDOFF — fix committed, Windows regression coverage added. Upstream PR creation restricted to collaborators. | Codex maintainer — review/cherry-pick |
-| Codex Security #973 — fork candidate #1 | `e7f2731` | HOLD — FORK CANDIDATE VALIDATED. Exact-head node-ci: 46 jobs: 43 success, 3 skipped, 0 failed, 0 pending. Draft, no upstream PR submitted. Prereq #810 still open. | Upstream #810 maintainers |
-| OpenAI Agents Python #5088 — native Modal read | `f6e6368` / `a67a69d` | HOLD — Benchmark READY -> MEASURED. 18/18 fork validation passed. Median: shell 3.4937s vs native 2.7945s (-20.0% code-path delta) with correctness parity. | Maintainer review |
-| FHIR Server #5829 | `512dad5` | BLOCKED — maintainer-triggered Azure pipeline failed, Check Metadata failed 2026-09-21 | Upstream maintainer |
+## Selected records
 
-**30 sec try:**
-```bash
-git clone https://github.com/cstolting-collab/cml-github-work-record
-cd cml-github-work-record
-cat standards/DAILY-GITHUB-RULES.md
-cat journals/2026-09-23.md # exact links to fix branches and CI runs
-```
+These are historical records with explicit dates. They do not claim today’s upstream status.
 
-**Method:** STATE → HANDOFF → OWNERSHIP → VALIDATION → NEXT ACTOR → HUMAN AUTHORITY. Rule: Read · Verify · Prepare · Hold.
+| Record | Focus |
+| --- | --- |
+| [29 September 2026](journals/2026-09-29.md) | External contribution audit, review findings, and unresolved work |
+| [23 September 2026](journals/2026-09-23.md) | Codex Windows investigation and maintainer handoff |
+| [22 September 2026](journals/2026-09-22.md) | Fork validation, benchmark evidence, and acceptance boundaries |
+| [19 September 2026](journals/2026-09-19.md) | Contribution scope corrections and CI limitations |
 
-2026-09-29 external contribution audit: 12 upstream PRs located outside this account: 8 open, 3 closed after equivalent/original fixes merged upstream, 1 closed unmerged.
+Current pull-request, release, and workflow status must be checked at the linked source before it is reported as current.
 
-**Public boundary:** Private workflow mechanics, credentials, unpublished patches not published. Open PR != completed result.
+## Working method
 
-License: [Apache-2.0](LICENSE) · Topics: cml, work-log, evidence, reproducibility
+**State → handoff → ownership → validation → next actor → human authority**
+
+A useful engineering record preserves the problem, exact revision, scope of the change, validation evidence, unresolved conditions, and next responsible actor.
+
+Implementation, observed behavior, and verified results are recorded separately. A fork test pass is not upstream acceptance; a merged pull request is not by itself production verification.
+
+## Repository guide
+
+| Location | Contents |
+| --- | --- |
+| [journals/](journals/) | Dated investigations, evidence, and corrections |
+| [patches/](patches/) | Prepared contribution material |
+| [standards/](standards/) | Validation and continuity rules |
+| [prompts/](prompts/) | Public working instructions |
+| [assets/](assets/) | Supporting figures and visual records |
+
+## Collaboration and attribution
+
+Work is human-led and AI-assisted. Upstream authors and maintainers retain credit for their projects and contributions. Failed attempts, corrections, and superseded conclusions remain available as part of the historical record.
+
+Only material approved for public disclosure belongs here. Private implementation details, credentials, and unpublished evidence remain outside this repository.
+
+## License
+
+[Apache License 2.0](LICENSE). Upstream projects and linked materials retain their own licenses and attribution.
+
+[Estra Logics profile](https://github.com/cstolting-collab)
