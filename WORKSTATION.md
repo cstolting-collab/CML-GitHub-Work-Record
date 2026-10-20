@@ -17,11 +17,17 @@
 
 | Priority | Workstream | Task | State | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | Profile presentation | Public profile README may not display because the same-name profile repository is private | **BLOCKED — human approval** | Confirm whether to make that repository public after content review; do not change visibility automatically |
+| P0 | Profile presentation | Public profile README may not display because the same-name profile repository is private | **PRIVATE — preserve visibility** | Use curated public portfolio; public account profile configuration requires separate GitHub UI access |
 | P1 | GitHub organization | Complete repository documentation/readiness review without modifying private or upstream code | **IN PROGRESS** | Review original public project READMEs and record verified gaps |
 | P1 | CML Local Alpha | [Tester feedback #1](https://github.com/cstolting-collab/CML-Local-Alpha/issues/1) | **OPEN; feedback template, no submissions recorded** | Await actual sanitized tester evidence; do not treat the template as a confirmed defect |
 | P2 | Issue repair | Select a scoped, reproducible issue in an authorized repository | **READY FOR TRIAGE** | Inspect current issue, source and CI; create a branch only after scope is clear |
-| P2 | CML research | Minimal continuity guidance vs. model baseline | **RESEARCH PROPOSAL** | Preserve original prompts/renders; design controlled comparisons before changes |
+| P2 | CML research | Minimal continuity guidance vs. model baseline | **PRIVATE RESEARCH** | Preserve original prompts/renders in private research; design controlled comparisons before changes |
+
+## Public portfolio and account profile
+
+- [Curated public engineering portfolio](PUBLIC_PORTFOLIO.md) — verified public-facing entry point, not the GitHub account profile itself.
+- The same-name account profile repository remains **private by deliberate privacy choice**. Do not change visibility. GitHub account profile pins and a separate public profile repository still require supported website controls and explicit approval for any new public repository.
+- Keep the workstation's public issue queue free of private issue titles, source, experiment prompts, and unpublished render evidence.
 
 ## Project entrances
 
