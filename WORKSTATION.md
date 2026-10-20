@@ -19,7 +19,7 @@
 | --- | --- | --- | --- | --- |
 | P0 | Profile presentation | Public profile README may not display because the same-name profile repository is private | **BLOCKED — human approval** | Confirm whether to make that repository public after content review; do not change visibility automatically |
 | P1 | GitHub organization | Complete repository documentation/readiness review without modifying private or upstream code | **IN PROGRESS** | Review original public project READMEs and record verified gaps |
-| P1 | CML Local Alpha | [Tester feedback #1](https://github.com/cstolting-collab/CML-Local-Alpha/issues/1) | **OPEN; feedback pending** | Inspect issue and current release before claiming any defect |
+| P1 | CML Local Alpha | [Tester feedback #1](https://github.com/cstolting-collab/CML-Local-Alpha/issues/1) | **OPEN; feedback template, no submissions recorded** | Await actual sanitized tester evidence; do not treat the template as a confirmed defect |
 | P2 | Issue repair | Select a scoped, reproducible issue in an authorized repository | **READY FOR TRIAGE** | Inspect current issue, source and CI; create a branch only after scope is clear |
 | P2 | CML research | Minimal continuity guidance vs. model baseline | **RESEARCH PROPOSAL** | Preserve original prompts/renders; design controlled comparisons before changes |
 
