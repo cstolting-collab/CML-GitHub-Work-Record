@@ -1,5 +1,7 @@
 # Estra Logics — Engineering Work Record
 
+**[Open the Morning Engineering Workstation](WORKSTATION.md)** — current priorities, daily sequence, GitHub repair and CML workstreams, validation and handoff.
+
 **A public record of software investigation, validation, and open-source contribution work.**
 
 This repository organizes dated evidence: what was investigated, what changed, what was checked, and what remains unresolved. It is the reporting destination for the work, not a claim that every contribution has been accepted upstream.
