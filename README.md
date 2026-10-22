@@ -1,66 +1,71 @@
-![Estra Logics — CML](assets/cml-banner.png)
+![Estra Logics — continuity engineering and CML](assets/cml-banner.png)
 
-# Estra Logics — Engineering Work Record
+# Estra Logics
 
-**[Public Engineering Portfolio](PUBLIC_PORTFOLIO.md)** · **[Open the Morning Engineering Workstation](WORKSTATION.md)** — current priorities, daily sequence, GitHub repair and CML workstreams, validation and handoff.
+### Continuity engineering for stateful AI and software systems
 
-**A public record of software investigation, validation, and open-source contribution work.**
+**Open to work · Available for contract projects**
 
-This repository organizes dated evidence: what was investigated, what changed, what was checked, and what remains unresolved. It is the reporting destination for the work, not a claim that every contribution has been accepted upstream.
+I investigate software problems, develop continuity tools, and turn technical work into clear documentation and practical handoffs. My focus is making it easier to understand what changed, what was checked, and what happens next.
 
-## Start here
+**[View my portfolio](PUBLIC_PORTFOLIO.md) · [Discuss a role or project](https://github.com/cstolting-collab/CML-GitHub-Work-Record/issues/new?title=Work%20or%20contract%20inquiry)**
 
-| Audience | Read |
+## How I can help
+
+- **Software investigation and repair:** issue reproduction, scoped patches, regression checks, and documented findings.
+- **Technical documentation:** setup guides, repository organization, and clear project handoffs.
+- **AI workflow continuity:** accepted-state records, validation workflows, and recovery prototypes.
+
+## Selected work
+
+| Project | Focus |
 | --- | --- |
-| Reviewing this portfolio | [Public project directory](https://github.com/cstolting-collab/cstolting-collab/blob/main/PROJECTS.md) |
-| Reviewing technical work | [Dated journals](journals/) |
-| Following an existing task | [AI Source](AI_SOURCE.md) |
-| Checking working standards | [Daily GitHub rules](standards/DAILY-GITHUB-RULES.md) |
-| Reviewing prepared changes | [Patch records](patches/) |
+| [CML Local Alpha](https://github.com/cstolting-collab/CML-Local-Alpha) | Local static document validation, accepted-state recovery, and verification receipts. Alpha tooling; see the project documentation for its supported scope. |
+| [CML Trust](https://github.com/cstolting-collab/CML-Trust) | An alpha evidence notebook for external continuity observations and their supporting records. |
+| [Pattern Atlas](https://github.com/cstolting-collab/pattern-atlas) | A local-first prototype for timelines and source-noted relationship mapping. |
+| [Engineering Work Record](journals/) | Dated software investigations, validation results, and open-source contribution handoffs. |
 
-**Latest organization record:** [10 October 2026 — presentation changes and remaining settings work](journals/2026-10-10.md)
+[Explore the full public portfolio](PUBLIC_PORTFOLIO.md)
 
-**Presentation standard:** [Public portfolio organization](standards/PUBLIC-PRESENTATION.md)
+## Work with me
 
-## Selected records
+I’m open to employment opportunities, contract assignments, and project-based collaboration involving software investigation, technical documentation, and AI workflow continuity.
 
-These are historical records with explicit dates. They do not claim today’s upstream status.
+[**Start a work inquiry**](https://github.com/cstolting-collab/CML-GitHub-Work-Record/issues/new?title=Work%20or%20contract%20inquiry) with a brief, non-confidential description of the role or project and your preferred timeline. GitHub issues are public.
 
-| Record | Focus |
+## Engineering work record
+
+This repository also preserves the evidence behind the work: what was investigated, what changed, what was checked, and what remains unresolved.
+
+| Start here | Contents |
 | --- | --- |
-| [29 September 2026](journals/2026-09-29.md) | External contribution audit, review findings, and unresolved work |
-| [23 September 2026](journals/2026-09-23.md) | Codex Windows investigation and maintainer handoff |
-| [22 September 2026](journals/2026-09-22.md) | Fork validation, benchmark evidence, and acceptance boundaries |
-| [19 September 2026](journals/2026-09-19.md) | Contribution scope corrections and CI limitations |
+| [Dated journals](journals/) | Investigations, results, corrections, and open questions |
+| [Morning engineering workstation](WORKSTATION.md) | Current workstreams, priorities, and handoff |
+| [Patch records](patches/) | Prepared contribution material |
+| [Working standards](standards/) | Validation, continuity, and public presentation rules |
+| [AI Source](AI_SOURCE.md) | Continuity instructions for AI-assisted work |
 
-Current pull-request, release, and workflow status must be checked at the linked source before it is reported as current.
+### Selected historical records
 
-## Working method
+- [20 October 2026](journals/2026-10-20.md) — workstation recovery and GitHub audit
+- [29 September 2026](journals/2026-09-29.md) — external contribution audit and review findings
+- [23 September 2026](journals/2026-09-23.md) — Codex Windows investigation and maintainer handoff
+- [22 September 2026](journals/2026-09-22.md) — fork validation and benchmark evidence
+- [19 September 2026](journals/2026-09-19.md) — contribution scope corrections and CI limitations
 
-**State → handoff → ownership → validation → next actor → human authority**
+Records are dated. Current pull-request, release, and workflow status belongs at the linked source. A fork test result does not imply upstream acceptance.
 
-A useful engineering record preserves the problem, exact revision, scope of the change, validation evidence, unresolved conditions, and next responsible actor.
+## Working approach
 
-Implementation, observed behavior, and verified results are recorded separately. A fork test pass is not upstream acceptance; a merged pull request is not by itself production verification.
+**Accepted state → observation → candidate change → validation → explicit human-authorized commit**
 
-## Repository guide
+Work is human-led and AI-assisted. Findings, tests, and unresolved questions are documented separately. Failed attempts and corrections remain part of the record. CML’s static validation scope is documented in each project; it does not certify runtime behavior or safety.
 
-| Location | Contents |
-| --- | --- |
-| [journals/](journals/) | Dated investigations, evidence, and corrections |
-| [patches/](patches/) | Prepared contribution material |
-| [standards/](standards/) | Validation and continuity rules |
-| [prompts/](prompts/) | Public working instructions |
-| [assets/](assets/) | Supporting figures and visual records |
-
-## Collaboration and attribution
-
-Work is human-led and AI-assisted. Upstream authors and maintainers retain credit for their projects and contributions. Failed attempts, corrections, and superseded conclusions remain available as part of the historical record.
-
-Only material approved for public disclosure belongs here. Private implementation details, credentials, and unpublished evidence remain outside this repository.
+Upstream authors retain credit for their work and their licenses. Only material approved for public disclosure belongs here.
 
 ## License
 
-[Apache License 2.0](LICENSE). Upstream projects and linked materials retain their own licenses and attribution.
+[Apache License 2.0](LICENSE). Linked projects and upstream materials retain their own licenses and attribution.
 
-[Estra Logics profile](https://github.com/cstolting-collab)
+**Estra Logics · Continuity · State · Evidence**  
+[GitHub profile](https://github.com/cstolting-collab) · [Public portfolio](PUBLIC_PORTFOLIO.md)
