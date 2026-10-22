@@ -1,51 +1,45 @@
-![Estra Logics — continuity engineering and CML](assets/cml-banner.png)
+![Estra Logics — continuity, state, and evidence](assets/cml-banner.png)
 
 # Estra Logics
 
-### Continuity engineering for stateful AI and software systems
+**Continuity engineering for stateful AI and software systems**
 
-**Open to work · Available for contract projects**
+Engineering · Software production management · Applied research
 
-I investigate software problems, develop continuity tools, and turn technical work into clear documentation and practical handoffs. My focus is making it easier to understand what changed, what was checked, and what happens next.
+Estra Logics is my independent engineering platform for continuity and integrity: keeping accepted state, proposed changes, and supporting evidence traceable as systems evolve. **CML — Continuity Markup Language — is its underlying language and engine.** The public tools apply that work to document validation, state recovery, and verifiable records.
 
-**[View my portfolio](PUBLIC_PORTFOLIO.md) · [Discuss a role or project](https://github.com/cstolting-collab/CML-GitHub-Work-Record/issues/new?title=Work%20or%20contract%20inquiry)**
+I work across engineering and production management for software development. That perspective shapes the work here: clear requirements, testable changes, visible blockers, and documentation that lets the next person continue with confidence.
 
-## How I can help
+[Engineering portfolio](PUBLIC_PORTFOLIO.md) · [Selected projects](#selected-projects) · [Engineering work record](#engineering-work-record)
 
-- **Software investigation and repair:** issue reproduction, scoped patches, regression checks, and documented findings.
-- **Technical documentation:** setup guides, repository organization, and clear project handoffs.
-- **AI workflow continuity:** accepted-state records, validation workflows, and recovery prototypes.
+## Capabilities in practice
 
-## Selected work
-
-| Project | Focus |
+| Area | What I bring to the work |
 | --- | --- |
-| [CML Local Alpha](https://github.com/cstolting-collab/CML-Local-Alpha) | Local static document validation, accepted-state recovery, and verification receipts. Alpha tooling; see the project documentation for its supported scope. |
-| [CML Trust](https://github.com/cstolting-collab/CML-Trust) | An alpha evidence notebook for external continuity observations and their supporting records. |
-| [Pattern Atlas](https://github.com/cstolting-collab/pattern-atlas) | A local-first prototype for timelines and source-noted relationship mapping. |
-| [Engineering Work Record](journals/) | Dated software investigations, validation results, and open-source contribution handoffs. |
+| Engineering production | Scope requirements, organize work and dependencies, track unresolved conditions, and maintain clear ownership through handoffs. |
+| Software investigation | Trace problems to source, prepare focused changes, develop regression checks, and report results against the revision examined. |
+| Continuity and validation | Define acceptance rules, preserve the last accepted state, separate observations from decisions, and produce checkable evidence. |
+| Interface prototyping | Translate workflows into local-first browser tools, with inspectable state and clear human–AI interaction. |
 
-[Explore the full public portfolio](PUBLIC_PORTFOLIO.md)
+## Selected projects
 
-## Work with me
+| Project | Engineering focus |
+| --- | --- |
+| [CML Local Alpha](https://github.com/cstolting-collab/CML-Local-Alpha) | Static document validation, atomic local persistence, concurrent-edit protection, accepted-state recovery, and offline receipt verification. **Alpha software.** |
+| [CML Trust](https://github.com/cstolting-collab/CML-Trust) | Plan and evidence hashes, append-only observation records, coverage review, and preserved revocation history. **Research prototype.** |
+| [Pattern Atlas](https://github.com/cstolting-collab/pattern-atlas) | Source-noted timelines and relationship maps, local storage, and JSON import/export. **Browser prototype.** |
+| [Transparent Glasshouse](https://github.com/cstolting-collab/transparent-glasshouse-webmcp) | A spatial interface with six WebMCP tools, shared human–agent state, and a visible activity stream. **Public demonstration.** |
 
-I’m open to employment opportunities, contract assignments, and project-based collaboration involving software investigation, technical documentation, and AI workflow continuity.
-
-[**Start a work inquiry**](https://github.com/cstolting-collab/CML-GitHub-Work-Record/issues/new?title=Work%20or%20contract%20inquiry) with a brief, non-confidential description of the role or project and your preferred timeline. GitHub issues are public.
+The [portfolio](PUBLIC_PORTFOLIO.md) connects these projects to the engineering problems they address and includes an open-source contribution example.
 
 ## Engineering work record
 
-This repository also preserves the evidence behind the work: what was investigated, what changed, what was checked, and what remains unresolved.
+This repository holds dated investigations, patch records, validation results, and technical handoffs. The record preserves what changed, what was checked, and what remains unresolved.
 
-| Start here | Contents |
-| --- | --- |
-| [Dated journals](journals/) | Investigations, results, corrections, and open questions |
-| [Morning engineering workstation](WORKSTATION.md) | Current workstreams, priorities, and handoff |
-| [Patch records](patches/) | Prepared contribution material |
-| [Working standards](standards/) | Validation, continuity, and public presentation rules |
-| [AI Source](AI_SOURCE.md) | Continuity instructions for AI-assisted work |
+[Dated journals](journals/) · [Patch records](patches/) · [Engineering workstation](WORKSTATION.md)
 
-### Selected historical records
+<details>
+<summary>Historical records and working standards</summary>
 
 - [20 October 2026](journals/2026-10-20.md) — workstation recovery and GitHub audit
 - [29 September 2026](journals/2026-09-29.md) — external contribution audit and review findings
@@ -53,19 +47,23 @@ This repository also preserves the evidence behind the work: what was investigat
 - [22 September 2026](journals/2026-09-22.md) — fork validation and benchmark evidence
 - [19 September 2026](journals/2026-09-19.md) — contribution scope corrections and CI limitations
 
-Records are dated. Current pull-request, release, and workflow status belongs at the linked source. A fork test result does not imply upstream acceptance.
+[Working standards](standards/) · [AI Source](AI_SOURCE.md)
 
-## Working approach
+Historical results remain attached to their dates and revisions. Current review and workflow status belongs at the linked source; a fork test result does not imply upstream acceptance.
 
-**Accepted state → observation → candidate change → validation → explicit human-authorized commit**
+</details>
 
-Work is human-led and AI-assisted. Findings, tests, and unresolved questions are documented separately. Failed attempts and corrections remain part of the record. CML’s static validation scope is documented in each project; it does not certify runtime behavior or safety.
+## Professional availability
 
-Upstream authors retain credit for their work and their licenses. Only material approved for public disclosure belongs here.
+Open to work and contract projects in engineering production, software investigation, validation tooling, and technical documentation.
 
-## License
+[Public project inquiries](https://github.com/cstolting-collab/CML-GitHub-Work-Record/issues/new?title=Professional%20inquiry)
 
-[Apache License 2.0](LICENSE). Linked projects and upstream materials retain their own licenses and attribution.
+---
 
-**Estra Logics · Continuity · State · Evidence**  
-[GitHub profile](https://github.com/cstolting-collab) · [Public portfolio](PUBLIC_PORTFOLIO.md)
+Human-led · AI-assisted · Evidence-bound
+
+Project documentation describes maturity, setup, and validation scope. CML static checks do not certify runtime behavior or safety. Upstream authorship and licenses are preserved.
+
+[Apache License 2.0](LICENSE) for this work record; linked projects retain their own licenses.  
+[GitHub profile](https://github.com/cstolting-collab) · [Engineering portfolio](PUBLIC_PORTFOLIO.md)

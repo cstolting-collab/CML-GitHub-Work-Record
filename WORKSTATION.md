@@ -35,7 +35,7 @@
 - [CML Trust](https://github.com/cstolting-collab/CML-Trust) — external observation/evidence notebook
 - [Pattern Atlas](https://github.com/cstolting-collab/pattern-atlas) — source-noted relationship mapping
 - [Engineering Work Record](https://github.com/cstolting-collab/CML-GitHub-Work-Record) — dated evidence and handoffs
-- [Public project directory](https://github.com/cstolting-collab/cstolting-collab/blob/main/PROJECTS.md) — may be inaccessible publicly while profile repository is private
+- [Public engineering portfolio](PUBLIC_PORTFOLIO.md) — capabilities, selected projects, and public source links
 
 **Privacy boundary:** This public dashboard does not inventory or disclose private repository source, unpublished experiments, credentials, or personal history. Private tasks remain in their authorized private workspaces.
 
